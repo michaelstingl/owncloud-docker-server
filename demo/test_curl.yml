@@ -1,6 +1,0 @@
-version: '2.1'
-
-services:
-  owncloud:
-    volumes:
-      - ./demo/test_curl.sh:/etc/post_install.d/90-test_curl.sh
