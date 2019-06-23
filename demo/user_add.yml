@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  owncloud:
+    environment:
+      - OWNCLOUD_USER_ADD
+      - OC_PASS
+    volumes:
+      - ./demo/user_add.sh:/etc/post_install.d/50-user_add.sh

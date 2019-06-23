@@ -1,0 +1,7 @@
+version: '2.1'
+
+services:
+  clamav:
+    image: dinkel/clamavd:${CLAMAV_CONTAINER_TAG:-latest}
+    volumes:
+      - /data
