@@ -2,3 +2,5 @@
 
 /owncloud-*.tar.bz2
 /user_ldap*.tar.gz
+
+.DS_Store
