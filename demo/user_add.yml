@@ -4,6 +4,7 @@ services:
   owncloud:
     environment:
       - OWNCLOUD_USER_ADD
-      - OC_PASS
+      - OWNCLOUD_USER_PASSWORD
+      - OC_PASS=${OWNCLOUD_USER_PASSWORD}
     volumes:
       - ./demo/user_add.sh:/etc/post_install.d/50-user_add.sh
