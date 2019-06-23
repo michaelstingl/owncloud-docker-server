@@ -43,7 +43,7 @@ https://github.com/michaelstingl/owncloud-example-files/tree/master/Demo
 **Shared folders** (Quick Acces)
 
 ```
-└── share_test
+└── share_demo
     ├── alice2bob_accepted
     ├── alice2bob_pending
     ├── alice2bob_rejected
@@ -67,11 +67,11 @@ https://github.com/michaelstingl/owncloud-example-files/tree/master/Demo
 **Shared folders** (Quick Acces)
 
 ```
-└── share_test
+└── share_demo
     ├── bob2alice_accepted
     ├── bob2alice_pending
     ├── bob2alice_rejected
     ├── bob_link
-    ├── remote_bob2alice_accepted
-    └── remote_bob2alice_pending
+    ├── remote_bob2alice_accepted (bob shares with alice@sameinstance, alice accepts) <== needs proper SSL
+    └── remote_bob2alice_pending (bob shares with alice@sameinstance) <== needs proper SSL
 ```
