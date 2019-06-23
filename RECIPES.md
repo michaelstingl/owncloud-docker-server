@@ -13,7 +13,7 @@ Some examples for starting different setups
   ```
 
 
-  - Example with additional users `alice`, `bob`, `test` for demo: *owncloud-default* (`redis`, `mariadb`)
+- Example with additional users `alice`, `bob`, `test` for demo: *owncloud-default* (`redis`, `mariadb`)
 
   ```
   OWNCLOUD_USER_ADD=alice,bob,test \
